@@ -11,7 +11,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
         Button myButton = findViewById(R.id.mybutton);
 
         myButton.setOnClickListener(new View.OnClickListener(){
-        @Override
+            @Override
             public void onClick(View v){
-            Toast.makeText(MainActivity.this,"You have clicked the button",Toast.LENGTH_SHORT).show();
-        }
+                Toast.makeText(MainActivity.this,"You have clicked the button",Toast.LENGTH_SHORT).show();
+            }
 
 
         });
     }
-}
+    }
